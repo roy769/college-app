@@ -1,4 +1,12 @@
-$.getJSON("/releases", function(data) {
+import React from 'react$';
+import Cheerio from 'cheerio';
+
+let go = .getJSON;
+class Scraper extends Component {
+  render() {
+    return (
+
+go => ("/releases"){
   for (var i =0; i < data.length; i++)
   {
     $(".releases").append("p data-id='" + data[i]._id +
@@ -51,3 +59,7 @@ $(document).on("click", "#savepip", function() {
   $("#titleinput").val("");
   $("#bodyinput").val("");
 });
+
+    )
+  }
+}
