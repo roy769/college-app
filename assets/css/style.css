@@ -1,0 +1,9 @@
+*{
+  box-sizing: border-box;
+  text-align-last: center;
+}
+
+#logo {
+  max-width: 80%;
+  max-height: auto;
+}

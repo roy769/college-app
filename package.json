@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.4",
     "react-router-dom": "^4.2.2",
     "remove-lockfiles": "^1.4.2"
